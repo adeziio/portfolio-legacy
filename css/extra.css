@@ -22,3 +22,8 @@
 h4 { 
   animation: fadeIn 1s infinite alternate;
 }
+
+.social-icons.resume {
+  color: black;
+  font-size: 50px;
+}
