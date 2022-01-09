@@ -27,3 +27,12 @@ h4 {
   color: black;
   font-size: 50px;
 }
+
+.underline {
+  text-decoration: underline;
+  color: #1a0dab;
+}
+
+p {
+  color: black;
+}
