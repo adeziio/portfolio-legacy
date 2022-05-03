@@ -1,25 +1,29 @@
-
-.img-:hover{
-    box-shadow: 0 0 16px black;
-    transform: scale(1.1);
-    z-index: 1;
-    transition: .3s;
+.img-:hover {
+  box-shadow: 0 0 16px black;
+  transform: scale(1.1);
+  z-index: 1;
+  transition: .3s;
 }
 
-.i-am-centered { margin: auto; max-width: 300px;}
+.i-am-centered {
+  margin: auto;
+  max-width: 300px;
+}
 
 
-.thumbnail{
-    border: 1px solid white;
+.thumbnail {
+  border: 1px solid white;
 }
 
 @import "compass/css3";
 
-@keyframes fadeIn { 
-  from { opacity: 0; } 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 }
 
-h4 { 
+h4 {
   animation: fadeIn 1s infinite alternate;
 }
 
@@ -35,4 +39,8 @@ h4 {
 
 p {
   color: black;
+}
+
+.block {
+  display: block;
 }
